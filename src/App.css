@@ -1,38 +1,85 @@
+@import './components/PokemonCard/PokemonCard.css';
+@import './components/PokemonFilterSection/PokemonFilterSection.css';
+@import './components/PokemonList/PokemonList.css';
+@import './shared/components/sharedComponents.css';
+@import './components/PokemonDetail/PokemonDetail.css';
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.TextLeft {
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-normal {
+  background-color: #A8A77A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-grass {
+  background-color: #7AC74C;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-fire {
+  background-color: #EE8130;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-water {
+  background-color: #6390F0;
+}
+
+.bg-bug {
+  background-color: #A6B91A;
+}
+
+.bg-electric {
+  background-color: #F7D02C;
+}
+
+.bg-rock {
+  background-color: #B6A136;
+}
+
+.bg-ghost {
+  background-color: #735797;
+}
+
+.bg-poison {
+  background-color: #A33EA1;
+}
+
+.bg-psychic {
+  background-color: #F95587;
+}
+
+.bg-fighting {
+  background-color: #C22E28;
+}
+
+.bg-ground {
+  background-color: #E2BF65;
+}
+
+.bg-dragon {
+  background-color: #6F35FC;
+}
+
+.bg-flying {
+  background-color: #A98FF3;
+}
+
+.bg-steel {
+  background-color: #B7B7CE;
+}
+
+.bg-fairy {
+  background-color: #D685AD;
+}
+
+.bg-ice {
+  background-color: #96D9D6;
+}
+
+.bg-dark {
+  background-color: #705746;
 }

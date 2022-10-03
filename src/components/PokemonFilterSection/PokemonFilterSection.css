@@ -1,0 +1,43 @@
+.SearchSection {
+    background-color: #000000;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.SearchWrapper {
+    color: #ffffff;
+    max-width: 250px;
+    font-size: .75rem;
+    text-align: left;
+}
+
+.SortWrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.SearchWrapper input {
+    width: 100%;
+    margin-bottom: .4rem;
+}
+
+.FilterSection {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+    .FilterSection {
+        flex-direction: row;
+    }
+
+    .TypeWrapper {
+        flex: 3;
+    }
+}

@@ -1,0 +1,67 @@
+.PokemonCard {
+    width: 100px;
+    display: inline-block;
+    padding: .5rem;
+}
+
+.CardImgWrapper {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: .5rem;
+}
+
+.CardImgWrapper img {
+    width: 90px;
+    height: 90px;
+}
+
+.CardStats {
+    display: flex;
+    justify-content: space-between;
+    font-size: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.CardName {
+    text-align: left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+.CardName::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.CardName {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.CardType {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 30px;
+}
+
+.CardType > div {
+    cursor: pointer;
+    display: inline-block;
+    font-size: .5rem;
+    width: 40px;
+    margin: .25rem 0;
+    text-align: center;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    border-radius: .5rem;
+    left: 0;
+    color: #ffffff;
+}
